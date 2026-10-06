@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Spice & Soul - Fresh, delicious and authentic food. Order online or reserve your table.">
+
+    <title>Spice & Soul | Premium Restaurant</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header" id="header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                <span>🍽️</span>
+                Spice <b>&</b> Soul
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+
+                <a href="#reservation" class="nav-btn">
+                    Book a Table
+                </a>
+
+            </div>
+
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <span class="small-heading">
+                    ✦ WELCOME TO SPICE & SOUL
+                </span>
+
+                <h1>
+                    Good Food.
+                    <br>
+                    <span>Good Mood.</span>
+                </h1>
+
+                <p>
+                    Fresh ingredients, bold flavours and unforgettable
+                    moments — all served with love.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#menu" class="btn btn-primary">
+                        Explore Menu
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#reservation" class="btn btn-outline">
+                        Reserve a Table
+                    </a>
+
+                </div>
+
+                <div class="hero-info">
+
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <strong>4.9/5</strong>
+                        <span>Customer Rating</span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-clock"></i>
+                        <strong>11 AM - 11 PM</strong>
+                        <span>Open Daily</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="features">
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+
+                <div>
+                    <h3>Fresh Ingredients</h3>
+                    <p>Locally sourced & freshly prepared.</p>
+                </div>
+
+            </div>
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+
+                <div>
+                    <h3>Authentic Taste</h3>
+                    <p>Recipes made with passion.</p>
+                </div>
+
+            </div>
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+
+                <div>
+                    <h3>Fast Delivery</h3>
+                    <p>Hot & fresh at your doorstep.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MENU ================= -->
+
+        <section class="section menu-section" id="menu">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    OUR SPECIALS
+                </span>
+
+                <h2>
+                    Taste Our <span>Best</span>
+                </h2>
+
+                <p>
+                    Carefully prepared dishes made with fresh ingredients
+                    and a whole lot of love.
+                </p>
+
+            </div>
+
+
+            <div class="category-buttons">
+
+                <button class="category active" data-category="all">
+                    All
+                </button>
+
+                <button class="category" data-category="starter">
+                    Starters
+                </button>
+
+                <button class="category" data-category="main">
+                    Main Course
+                </button>
+
+                <button class="category" data-category="pizza">
+                    Pizza
+                </button>
+
+                <button class="category" data-category="dessert">
+                    Desserts
+                </button>
+
+            </div>
+
+
+            <div class="food-grid">
+
+
+                <!-- FOOD 1 -->
+
+                <article class="food-card" data-category="pizza">
+
+                    <div class="food-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80"
+                            alt="Margherita Pizza">
+
+                        <span class="food-tag">
+                            Bestseller
+                        </span>
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <div class="food-title">
+
+                            <h3>Classic Margherita</h3>
+
+                            <span class="price">
+                                ₹299
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Fresh mozzarella, tomato, basil and
+                            our signature sauce.
+                        </p>
+
+                        <button class="order-btn" data-food="Classic Margherita">
+                            Add to Order
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FOOD 2 -->
+
+                <article class="food-card" data-category="main">
+
+                    <div class="food-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=800&q=80"
+                            alt="Chicken Rice">
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <div class="food-title">
+
+                            <h3>Chicken Rice Bowl</h3>
+
+                            <span class="price">
+                                ₹349
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Grilled chicken, fragrant rice,
+                            fresh vegetables and special sauce.
+                        </p>
+
+                        <button class="order-btn" data-food="Chicken Rice Bowl">
+                            Add to Order
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FOOD 3 -->
+
+                <article class="food-card" data-category="starter">
+
+                    <div class="food-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=800&q=80"
+                            alt="Crispy Chicken">
+
+                        <span class="food-tag">
+                            Popular
+                        </span>
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <div class="food-title">
+
+                            <h3>Crispy Chicken</h3>
+
+                            <span class="price">
+                                ₹279
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Crispy golden chicken served with
+                            creamy house dip.
+                        </p>
+
+                        <button class="order-btn" data-food="Crispy Chicken">
+                            Add to Order
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FOOD 4 -->
+
+                <article class="food-card" data-category="main">
+
+                    <div class="food-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"
+                            alt="Healthy Bowl">
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <div class="food-title">
+
+                            <h3>Green Power Bowl</h3>
+
+                            <span class="price">
+                                ₹299
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Avocado, greens, roasted vegetables,
+                            seeds and lemon dressing.
+                        </p>
+
+                        <button class="order-btn" data-food="Green Power Bowl">
+                            Add to Order
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FOOD 5 -->
+
+                <article class="food-card" data-category="pizza">
+
+                    <div class="food-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80"
+                            alt="Pepperoni Pizza">
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <div class="food-title">
+
+                            <h3>Spicy Pepperoni</h3>
+
+                            <span class="price">
+                                ₹399
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Pepperoni, mozzarella, chilli flakes
+                            and smoky tomato sauce.
+                        </p>
+
+                        <button class="order-btn" data-food="Spicy Pepperoni">
+                            Add to Order
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FOOD 6 -->
+
+                <article class="food-card" data-category="dessert">
+
+                    <div class="food-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+                            alt="Chocolate Cake">
+
+                        <span class="food-tag">
+                            New
+                        </span>
+
+                    </div>
+
+                    <div class="food-content">
+
+                        <div class="food-title">
+
+                            <h3>Chocolate Cake</h3>
+
+                            <span class="price">
+                                ₹199
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Rich chocolate cake with silky
+                            chocolate ganache.
+                        </p>
+
+                        <button class="order-btn" data-food="Chocolate Cake">
+                            Add to Order
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <div class="center">
+                <a href="#contact" class="btn btn-dark">
+                    View Full Menu
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- ================= OFFER ================= -->
+
+        <section class="offer">
+
+            <div class="offer-content">
+
+                <span class="eyebrow">
+                    LIMITED TIME OFFER
+                </span>
+
+                <h2>
+                    Get <span>20% OFF</span>
+                    <br>
+                    Your First Order
+                </h2>
+
+                <p>
+                    Use code <strong>SPICE20</strong> at checkout.
+                    Valid for new customers only.
+                </p>
+
+                <a href="#menu" class="btn btn-primary">
+                    Order Now
+                </a>
+
+            </div>
+
+            <div class="offer-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1000&q=80"
+                    alt="Delicious Pizza">
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section about" id="about">
+
+            <div class="about-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80"
+                    alt="Restaurant Interior">
+
+                <div class="experience">
+
+                    <strong>10+</strong>
+                    <span>Years of<br>Experience</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <span class="eyebrow">
+                    OUR STORY
+                </span>
+
+                <h2>
+                    Food That Feels
+                    <span>Like Home</span>
+                </h2>
+
+                <p>
+                    At Spice & Soul, we believe great food is more than
+                    just a meal. It's about bringing people together,
+                    creating memories and celebrating every moment.
+                </p>
+
+                <p>
+                    From our kitchen to your table, every dish is
+                    prepared using quality ingredients, traditional
+                    techniques and a modern touch.
+                </p>
+
+                <div class="about-points">
+
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        Fresh ingredients
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        Experienced chefs
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        Family friendly
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        Hygienic kitchen
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= REVIEWS ================= -->
+
+        <section class="section reviews" id="reviews">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    CUSTOMER LOVE
+                </span>
+
+                <h2>
+                    What People <span>Say</span>
+                </h2>
+
+            </div>
+
+
+            <div class="review-grid">
+
+                <article class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Absolutely loved the food! Everything was
+                        fresh, beautifully presented and full of flavour."
+                    </p>
+
+                    <div class="customer">
+                        <div class="avatar">A</div>
+
+                        <div>
+                            <strong>Arjun Sharma</strong>
+                            <span>Google Review</span>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "One of the best restaurants in town.
+                        Great ambience, friendly staff and amazing food."
+                    </p>
+
+                    <div class="customer">
+                        <div class="avatar">P</div>
+
+                        <div>
+                            <strong>Priya Mehta</strong>
+                            <span>Google Review</span>
+                        </div>
+                    </div>
+
+                </article>
+
+
+                <article class="review-card">
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "The pizza was incredible! Definitely coming
+                        back with my family."
+                    </p>
+
+                    <div class="customer">
+                        <div class="avatar">R</div>
+
+                        <div>
+                            <strong>Rahul Verma</strong>
+                            <span>Google Review</span>
+                        </div>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESERVATION ================= -->
+
+        <section class="reservation" id="reservation">
+
+            <div class="reservation-content">
+
+                <span class="eyebrow">
+                    RESERVE YOUR TABLE
+                </span>
+
+                <h2>
+                    Make Your Evening
+                    <span>Special</span>
+                </h2>
+
+                <p>
+                    Planning a dinner, date or family celebration?
+                    Reserve your table today.
+                </p>
+
+                <form id="reservationForm">
+
+                    <div class="form-row">
+
+                        <input
+                            type="text"
+                            placeholder="Your Name"
+                            required>
+
+                        <input
+                            type="tel"
+                            placeholder="Phone Number"
+                            required>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <input
+                            type="date"
+                            required>
+
+                        <input
+                            type="time"
+                            required>
+
+                    </div>
+
+                    <select required>
+
+                        <option value="">
+                            Number of Guests
+                        </option>
+
+                        <option>1 Guest</option>
+                        <option>2 Guests</option>
+                        <option>3 Guests</option>
+                        <option>4 Guests</option>
+                        <option>5+ Guests</option>
+
+                    </select>
+
+                    <button class="btn btn-primary" type="submit">
+                        Request Reservation
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="section contact" id="contact">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    FIND US
+                </span>
+
+                <h2>
+                    Come & <span>Visit Us</span>
+                </h2>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+                <div class="contact-card">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <h3>Our Location</h3>
+
+                    <p>
+                        123 Food Street,<br>
+                        Downtown, Mumbai 400001
+                    </p>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <h3>Call Us</h3>
+
+                    <p>
+                        +91 98765 43210<br>
+                        +91 98765 12345
+                    </p>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <i class="fa-solid fa-clock"></i>
+
+                    <h3>Opening Hours</h3>
+
+                    <p>
+                        Monday - Sunday<br>
+                        11:00 AM - 11:00 PM
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    🍽️ Spice <b>&</b> Soul
+                </a>
+
+                <p>
+                    Good food, good mood and unforgettable
+                    moments.
+                </p>
+
+                <div class="socials">
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Contact</h3>
+
+                <a href="tel:+919876543210">
+                    +91 98765 43210
+                </a>
+
+                <a href="mailto:hello@spiceandsoul.com">
+                    hello@spiceandsoul.com
+                </a>
+
+                <span>
+                    Mumbai, India
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Spice & Soul. All Rights Reserved.
+            </p>
+
+            <p>
+                Made with ❤️
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= WHATSAPP ================= -->
+
+    <a
+        class="whatsapp"
+        href="https://wa.me/919876543210?text=Hello%20Spice%20%26%20Soul%2C%20I%20want%20to%20place%20an%20order."
+        target="_blank"
+        aria-label="Order on WhatsApp">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
